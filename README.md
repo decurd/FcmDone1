@@ -33,8 +33,12 @@ echo json_encode($response);
 
 # MySQL-Source
 
-CREATE TABLE 'fcm'.'devices' <br>
-    ( 'id' INT NOT NULL AUTO_INCREMENT, <br>
-      'email' VARCHAR(50) NOT NULL , <br>
-      'token' TEXT NOT NULL , <br>
-      PRIMARY KEY ('id')) ENGINE = InnoDB;
+```html
+CREATE TABLE 'fcm'.'devices' 
+( 
+  'id' INT NOT NULL AUTO_INCREMENT, 
+  'email' VARCHAR(50) NOT NULL , 
+  'token' TEXT NOT NULL , 
+  PRIMARY KEY ('id')
+) ENGINE = InnoDB;
+```
