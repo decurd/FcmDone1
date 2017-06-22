@@ -4,7 +4,7 @@ FIREBASE, Volley
 
 ## PHP-Source
 
-```html
+```php
 <?php
 
 $token = $_POST['token'];
@@ -33,7 +33,7 @@ echo json_encode($response);
 
 ## MySQL-Source
 
-```html
+```sql
 CREATE TABLE 'fcm'.'devices' 
 ( 
   'id' INT NOT NULL AUTO_INCREMENT, 
